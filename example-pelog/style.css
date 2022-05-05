@@ -1,0 +1,63 @@
+.login_btn {
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    word-break: keep-all;
+    background: black;
+    color: white;
+    transition: all 0.125s ease-in 0s;
+    cursor: pointer;
+}
+.login_btn:hover{
+    background: #2e2e2e
+}
+
+.search_Page {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    outline: none;
+    border-radius: 50%;
+    color: var(--text1);
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+.search_box {
+    width: 302px;
+    height: 36px;
+    border: solid 1px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    opacity: 1;
+}
+
+.search_box_input {
+    width: 302px;
+    border: none;
+    outline:none;
+    -webkit-appearance: none;
+    margin-left: 10px;
+    overflow: auto;
+    flex: 1 1 0%;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    height: auto;
+}
+
+.search_icon {
+    padding-left: 10px;
+}
